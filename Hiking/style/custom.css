@@ -26,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+ol, ul, li{
 	list-style: none;
     display: inline;
 }
@@ -43,6 +43,84 @@ table {
 	border-spacing: 0;
 }
 .contacts {
-    background-color: #E5E5E5;
-    padding: 30px;
+    background-color: #ECF3FF;
+    display: inline-block;
+    padding: 10px 100px 120px 20px;
+    margin: 0px 10px 10px 20px;
+    font-size: 20px;
+}
+.header-image{
+    float: right;
+    padding: 150px 10px 20px 30px;
+    margin: 80px 200px 10px 100px;
+}
+.header-text{
+    text-align: left;
+    padding: 300px 10px 20px 30px;
+    margin: 80px 200px 10px 100px;
+}
+.title {
+    color: #05060A;
+}
+.title-header {
+    color: #05060A;
+    float: right;
+    margin: 10px;
+}
+.text {
+    color: #5D616F;
+}
+.container {
+    float: right;
+    word-spacing: 50px;
+    padding: 10px 150px 10px 150px;
+    margin: 10px;
+}
+.logo {
+    float: left;
+    padding: 10px 10px 10px 150px;
+}
+.description {
+    padding: 150px 500px 100px 500px;
+    display: inline-block;
+    text-align: center;
+}
+.first-section {
+    float: left;
+    padding: 10px 100px 70px 100px;
+}
+.first-section-text {
+    padding: 80px 100px 100px 10px;
+    margin: 10px 200px 10px 10px;
+}
+.second-section {
+    float: right;
+    padding: 10px 100px 100px 100px;
+}
+.second-section-text {
+    padding: 100px 150px 300px 200px;
+    margin: 10px 200px 10px 10px;
+}
+.third-section {
+    float: left;
+    padding: 10px 100px 100px 100px;
+}
+.third-section-text {
+    padding: 80px 100px 300px 10px;
+    margin: 10px 200px 10px 10px;
+}
+.subscribe {
+    text-align: center;
+    padding: 10px 100px 200px 100px;
+    margin: 10px 300px 10px 300px;
+    background-color: #ECF3FF;
+}
+.logo-bottom {
+    float: left;
+    background-color: #ECF3FF;
+    padding: 0px 0px 20px 10px;
+}
+.copyright {
+    background-color: #ECF3FF;
+    padding: 10px 10px 10px 10px;
 }
