@@ -41,9 +41,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.fa::before {
-    color: white;
-    font-size: 450px;
+.fa {
+    color: white; 
+    font-size: 450px !important;
     background-image: linear-gradient(to right top, #fd7249, #ff5f56, #fd4b65, #f73975, #ec2a87, #e22696, #d429a6, #c230b5, #ad3bc5, #9247d4, #6d51e1, #285aeb);
     border: 5px #fff;  
     border-radius: 100px; 
