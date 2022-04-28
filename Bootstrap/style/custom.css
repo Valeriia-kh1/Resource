@@ -1,0 +1,36 @@
+.form-inline {
+    float: right;
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    text-align: center;
+    margin-bottom: 330px;
+    box-shadow: 10px 10px 50px #000000;
+}
+
+.pizza-container {
+    width: 60%;
+    float: right;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.pizza-image {
+    width: 300px;
+    height: 180px;
+    border-radius: 80%;
+    box-shadow: 10px 10px 20px #000000;
+}
+
+.comments {
+    display: inline-block;
+    text-align: letf;
+    width: 300px;
+}
+
+.comment {
+    border: 1px solid #a4a4a4;
+    box-shadow: 5px 5px 5px #a4a4a4;
+    padding: 10px;
+}
