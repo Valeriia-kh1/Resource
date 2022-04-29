@@ -3,17 +3,26 @@
     margin: 0 auto;
 }
 
+.item {
+    opacity: 0.8;
+}
+
 .carousel-caption {
     text-align: center;
-    margin-bottom: 330px;
-    box-shadow: 10px 10px 50px #000000;
+    margin-bottom: 200px;
+    box-shadow: 30px 30px 60px #000000;
+}
+
+.btn-group {
+    margin: 150px;
+    box-shadow: 5px 5px 10px #a4a4a4;
+    border-radius: 10px;
 }
 
 .pizza-container {
     width: 60%;
     float: right;
     text-align: center;
-    margin-top: -20px;
 }
 
 .pizza-image {
@@ -23,14 +32,44 @@
     box-shadow: 10px 10px 20px #000000;
 }
 
+.pizza-tabs {
+    float: right;
+    width: 900px;
+    padding: 10px 50px 80px 50px;
+    margin: 20px 30px 10px 10px;
+    box-shadow: 5px 5px 10px #a4a4a4;
+}
+
+.subscribe-form {
+    display: inline;
+    float: right;
+    width: 600px;
+    text-align: center;
+    margin: 50px 450px 10px 15px;
+}
+
 .comments {
-    display: inline-block;
-    text-align: letf;
-    width: 300px;
+    text-align: center;
+    padding: 30px;
+    margin: 300px 40px 10px 15px;
 }
 
 .comment {
+    display: inline-block;
     border: 1px solid #a4a4a4;
-    box-shadow: 5px 5px 5px #a4a4a4;
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+}
+
+.row {
+    float: right;
+    padding: 30px 100px 30px 100px;
+    background-color: rgba(220, 220, 220, 0.896);
+}
+
+.feedback {
+    float: left;
+    text-align: center;
+    padding: 30px 100px 10px 100px;
 }
