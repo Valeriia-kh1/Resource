@@ -309,3 +309,143 @@ nav li a {
     box-shadow: 6px 6px 13px rgba(0, 0, 0, 0.4);
     border-radius: 0px;
 }
+
+.recently {
+    font-size: 52px;
+    line-height: 49px;
+    width: 477px;
+    height: 98px;
+    color: #444444;
+    position: absolute;
+    left: 280px;
+    top: 1150px;
+}
+
+.recently h2 span {
+    color: #F55F39;
+    line-height: 53px;
+    padding: 1px;
+}
+
+.recently h2 span:before {
+    content: "";
+    width: 117px;
+    position: absolute;
+    height: 4px;
+    top: 115px;
+    background: #F55F39;
+}
+
+.block {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 0 auto;
+    position: absolute;
+    top: 1315px;
+    left: 830px;
+}
+
+.main-block {
+    position: absolute;
+    top: 1330px;
+    left: 280px;
+}
+
+.side-block {
+    height: 240px;
+    margin: 15px;
+}
+
+.side-block.second {
+    background: #252061;
+    background-image: url(../img/background2.png);
+    color: white;
+    width: 376px;
+    text-align: left;
+}
+
+.side-block.second h3 {
+    font-size: 28px;
+    line-height: 30px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.side-block.second p {
+    font-size: 14px;
+    line-height: 23px;
+    margin: 30px 50px 20px 60px;
+}
+
+.side-block.second a {
+    color: #F55F39;
+    margin-left: 60px;
+    text-decoration: none;
+}
+
+.front-section {
+    width: 427px;
+    height: 291px;
+    text-align: left;
+    background-color: white;
+    position: relative;
+    top: 730px;
+    left: 280px;
+}
+
+.front-section h3 {
+    font-size: 30px;
+    line-height: 38px;
+    color: #252061;
+    padding: 28px 40px 10px 0px;
+}
+
+.front-section p {
+    font-size: 14px;
+    line-height: 23px;
+    color: #969696;
+    padding: 0px 50px 10px 0px;
+}
+
+.front-section h5 {
+    font-size: 15px;
+    line-height: 23px;
+    color: #252061;
+}
+
+.front-section h6 {
+    font-size: 13px;
+    line-height: 23px;
+    color: #252061;
+}
+
+.signature {
+    float: left;
+    padding-right: 10px;
+}
+
+.front-section-second {
+    width: 301px;
+    height: 112px;
+    text-align: left;
+    background-color: white;
+    position: relative;
+    top: 436px;
+    left: 845px;
+}
+
+.front-section-second p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #929292;
+    padding: 20px 10px 0px 0px;
+}
+
+.front-section-second h4 {
+    font-size: 18px;
+    line-height: 23px;
+    color: #252061;
+    padding: 10px 60px 20px 0px;
+}
+
