@@ -466,8 +466,15 @@ nav li a {
 
 @media (max-width: 1200px) {
     .front-section-second {
-        top: 455px;
-        left: 830px;
+    top: 455px;
+    left: 830px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .front-section-second {
+    top: 455px;
+    left: 830px;
     }
 }
 
